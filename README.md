@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 18.1.2
+ * @Author: Harleens
+ * @Date: 2022-06-28 18:58:25
+ * @LastEditors: Harleens
+ * @LastEditTime: 2022-06-28 19:02:23
+-->
 # Sheep UI
 
 ## 项目由来
@@ -31,7 +39,6 @@
 
 - Theseus：小小羊报道
 - yanzefeng：喜羊羊报道
-- 小鹿 报道
 - 冉羊羊 报道
 - walker报道
 - 羊羊举世无双
@@ -54,10 +61,3 @@
 - (?): 猪羊羊报道
 - TIX007：半城 报道
 - HarleenDance：绵羊羊  报道
-- weidaz: 小璋羊来报道！
-- xxx 懒洋洋报道
-- liuwenlong916: 报道
-- laocu 报道！
-- hoganjobs: 橘羊羊来报道
-- betaqi: 小贝羊来报道
-- ArcticRug25 报到！

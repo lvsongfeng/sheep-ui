@@ -1,18 +1,16 @@
-// 入口文件
-// 1.引入实现组件批量导出去
+// /scripts/entry.ts
 import type { App } from 'vue'
 import ButtonPlugin, { Button } from '../src/button'
-import SpacePlugin, { SSpace } from '../src/space'
-import version from '../src/version'
-// 2.导出这些组件
-export { Button, SSpace, version }
+import TreePlugin, { Tree } from '../src/tree'
+import PaginationPlugin, { Pagination } from '../src/pagination'
 
-const installs = [ButtonPlugin, SpacePlugin]
+const installs = [ButtonPlugin, TreePlugin, PaginationPlugin]
 
-// 3.导出一个vue插件
+export { Button, Tree, Pagination }
+
 export default {
-  version,
-  install(app: App) {
+  version: '0.0.1',
+  install(app: App): void {
     installs.forEach(p => app.use(p))
   }
 }
